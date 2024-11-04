@@ -43,6 +43,10 @@ app.get('/scrap', (req, res) => {
     });
 });
 
+app.get('/',(req,res)=>{
+    return res.send("hi");
+})
+
 app.get('/sc', (req, res) => {
     exec('python sc.py', (error) => {
         if (error) {
