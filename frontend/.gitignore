@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-C:\Users\sss\OneDrive\Desktop\projfinal\frontend\src\config/firebaseconfig.js
 node_modules
 dist
 dist-ssr
