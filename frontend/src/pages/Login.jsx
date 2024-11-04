@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsGoogle } from 'react-icons/bs';
-import { auth, provider } from '../firebaseconfig';
+import { auth, provider } from '../config/firebaseconfig';
 import { signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 

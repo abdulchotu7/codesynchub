@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { auth } from '../firebaseconfig';
+import { auth } from '../config/firebaseconfig';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const Home = () => {

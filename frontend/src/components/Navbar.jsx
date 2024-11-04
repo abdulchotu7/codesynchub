@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { CgHome, CgLogOut } from 'react-icons/cg';
 import { LuLogIn } from 'react-icons/lu';
 import { PiRainbowCloudBold } from 'react-icons/pi';
-import { auth } from '../firebaseconfig';
+import { auth } from '../config/firebaseconfig';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
 
